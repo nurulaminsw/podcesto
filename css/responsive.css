@@ -1,0 +1,30 @@
+@media (max-width:575px){
+    /* -------Review Section Responsive----- */
+    .review_head h3{
+        width: auto;
+        font-size: 40px;
+    }
+    .review_wrap{
+        gap: 20px;
+    }
+    .review_item{
+        width: auto;
+    }
+    .review_head a {
+        position: absolute;
+        top: 1220px;
+        right: 75px;
+        font-size: 16px;
+        color: #FFF;
+        padding: 18px 40px;
+        border: 1px solid #FFF;
+        transition: .4s;
+    }
+    /* ------Footer Section Responsive---- */
+    #footer {
+        padding-top: 600px;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+
+}

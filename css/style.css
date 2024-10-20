@@ -35,16 +35,20 @@ span {
 }
 
 .review_heading {
+    position: relative;
     margin-bottom: 56px;
 }
 
-.review_head {
+.review_head h3{
     width: 403px;
     font-size: 48px;
     color: #13132C;
 }
 
-.review_btn {
+.review_head a{
+    position: absolute;
+    top: 30px;
+    right: 40px;
     font-size: 16px;
     color: #7678ED;
     padding: 18px 40px;
