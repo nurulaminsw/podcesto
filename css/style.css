@@ -1,23 +1,24 @@
 /* Common CSS Start */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: "Commissioner", sans-serif;
-    font-weight: 400;
+body {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
 }
-a{
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
 }
-ul,li{
-    list-style-type: none;
+ul,
+li {
+  list-style-type: none;
 }
-span{
-    display: inline-block;
+span {
+  display: inline-block;
 }
 /* Common CSS End */
 
@@ -132,3 +133,53 @@ span{
 
 
 /* Pricing End */
+.navbar{
+    padding: 36px 0px;
+}
+.navbar-brand{
+    margin-right: 0px;
+}
+.navbar .logo {
+  width: 188px;
+}
+.navbar-nav{
+    display: flex;
+    column-gap: 49px;
+}
+
+.nav-item .nav-link:hover{
+    color: #7678ED;
+}
+.nav-item .nav-link{
+ color:  #62636C;
+ /*Commissioner/Commissioner16Regular*/font-family: "Commissioner", sans-serif;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ text-transform: capitalize;
+ transition:0.3s ;
+ -webkit-transition:0.3s ;
+ -moz-transition:0.3s ;
+ -ms-transition:0.3s ;
+ -o-transition:0.3s ;
+}
+
+.sub-btn {
+  padding: 16px 32px;
+  background-color: #7678ED;
+  color: #fff;
+  font-family: "Commissioner", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; 
+  border: none;
+}
+
+/* Navbar Start Here */
+
+/* Navbar End Here */
+
+/* Banner Start Here */
+/* Banner End Here */
