@@ -1,41 +1,141 @@
 /* Common CSS Start */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Commissioner", sans-serif;
     font-weight: 400;
 }
-a{
+
+a {
     display: inline-block;
     text-decoration: none;
     color: inherit;
 }
-ul,li{
+
+ul,
+li {
     list-style-type: none;
 }
-span{
+
+span {
     display: inline-block;
 }
+
 /* Common CSS End */
 
 /*-------------REVIEW CSS START---------------*/
-#review{
+#review {
     padding-top: 96px;
+    position: relative;
+    transform: translateY(38%);
 }
-.review_head{
+
+.review_heading {
+    margin-bottom: 56px;
+}
+
+.review_head {
     width: 403px;
     font-size: 48px;
     color: #13132C;
 }
-.review_btn{
+
+.review_btn {
     font-size: 16px;
     color: #7678ED;
     padding: 18px 40px;
     border: 1px solid #7678ED;
 }
+
+.review_item {
+    background: #FFFF;
+    width: 384px;
+    padding: 24px;
+    border: 1px solid #DDDDDD;
+}
+
+.review_item p {
+    margin-top: 24px;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 28px;
+    color: #62636C;
+}
+
+.reviewer {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.reviewer_name h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #13132C;
+}
+
+.reviewer_name h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898998;
+}
+
+.pagination ul {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .left,
+.pagination .right {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: 1px solid #FFFF;
+    color: #FFFF;
+    opacity: 0.48;
+}
+
+.pagination .dot {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #FFFF;
+    opacity: 0.48;
+    font-size: 8px;
+}
+
+.pagination .selected {
+    margin-left: 32px;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+}
+
+.pagination .right {
+    background: #FFFF;
+    margin-left: 32px;
+    opacity: 1;
+    color: #7678ED;
+}
+
 /*-------------REVIEW CSS END---------------*/
 /*-------------FOOTER CSS START---------------*/
+#footer {
+    background: #13132C;
+    padding-top: 294px;
+}
+
 /*-------------FOOTER CSS END---------------*/
