@@ -20,3 +20,22 @@ span{
     display: inline-block;
 }
 /* Common CSS End */
+
+/*-------------REVIEW CSS START---------------*/
+#review{
+    padding-top: 96px;
+}
+.review_head{
+    width: 403px;
+    font-size: 48px;
+    color: #13132C;
+}
+.review_btn{
+    font-size: 16px;
+    color: #7678ED;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+}
+/*-------------REVIEW CSS END---------------*/
+/*-------------FOOTER CSS START---------------*/
+/*-------------FOOTER CSS END---------------*/
