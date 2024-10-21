@@ -1,8 +1,185 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* Common CSS Start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: "Commissioner", sans-serif;
+body {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
 }
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style-type: none;
+}
+span {
+  display: inline-block;
+}
+/* Common CSS End */
+
+/* Pricing End */
+.navbar{
+    padding: 36px 0px;
+}
+.navbar-brand{
+    margin-right: 0px;
+}
+.navbar .logo {
+  width: 188px;
+}
+.navbar-nav{
+    display: flex;
+    column-gap: 49px;
+}
+
+.nav-item .nav-link:hover{
+    color: #7678ED;
+}
+.nav-item .nav-link{
+ color:  #62636C;
+ /*Commissioner/Commissioner16Regular*/font-family: "Commissioner", sans-serif;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ text-transform: capitalize;
+ transition:0.3s ;
+ -webkit-transition:0.3s ;
+ -moz-transition:0.3s ;
+ -ms-transition:0.3s ;
+ -o-transition:0.3s ;
+}
+
+.sub-btn {
+  padding: 16px 32px;
+  background-color: #7678ED;
+  color: #fff;
+  font-family: "Commissioner", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; 
+  border: none;
+}
+
+/* Navbar Start Here */
+
+/* Navbar End Here */
+
+/* Banner Start Here */
+/* Banner End Here */
+
+
+/* Pricing Start */
+#pricing{
+    padding: 96px 0;
+}
+#pricing *{
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+#pricing .priceTitle{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.46;
+    color: #13132C;
+}
+#pricing .priceDetails{
+    max-width: 386px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.70;
+    color: #898989;
+}
+#pricing .priceBtn{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #898998;
+    border: 1px dotted #DDDDDD;
+    padding: 16px 32px;
+}
+#pricing .priceBtn:hover{
+    color: #fff;
+    background-color: #7678ED;
+}
+#pricing .cord{
+    padding: 24px;
+    box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+}
+#pricing .cord:hover{
+    color: #fff;
+    background-color: #7678ED;
+}
+#pricing .cord:hover .priceCardTitle,
+#pricing .cord:hover .priceCardDetails,
+#pricing .cord:hover .priceAmount,
+#pricing .cord:hover .priceAmount span,
+#pricing .cord:hover ul .priceCardItem,
+#pricing .cord:hover ul .priceCardItem i {
+    color: #fff;
+}
+#pricing .cord:hover .priceCardBtn {
+    border-color: #fff;
+    background-color: #fff;
+}
+#pricing .cord .priceCardTitle{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.45;
+    color: #13132C;
+}
+#pricing .cord .priceCardDetails{
+    max-width: 240px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #898998;
+}
+#pricing .cord .priceAmount{
+    font-size: 16px;
+    font-weight: 400;
+    color: #898998;
+    margin-bottom: 32px;
+}
+#pricing .cord .priceAmount span{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #13132C;
+}
+#pricing .cord ul{
+    margin: 0 50px;
+}
+#pricing .cord ul .priceCardItem{
+    font-size: 16px;
+    font-weight: 500;
+    color: #13132C;
+    margin-bottom: 18px;
+}
+#pricing .cord ul .priceCardItem i{
+    margin-right: 12px;
+    color: #7678ED;
+}
+#pricing .cord .priceCardBtn{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #7678ED;
+    padding: 18px 0;
+    margin-top: 12px;
+    border: 1px solid #7678ED;
+}
+
+
+
+
