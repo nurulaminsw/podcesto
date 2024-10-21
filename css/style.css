@@ -55,7 +55,7 @@ span {
     border: 1px solid #7678ED;
     transition: .4s;
 }
-.review_btn:hover{
+.review_head a:hover{
     background-color: #7678ED;
     color: #FFF;
 }

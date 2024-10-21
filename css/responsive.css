@@ -21,6 +21,10 @@
         padding-top: 600px;
     }
     
+    .footer_item h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 @media (min-width:576px) and (max-width:767px) {
         /* -------Review Section Responsive----- */
@@ -41,5 +45,9 @@
     /* ------Footer Section Responsive---- */
     #footer {
         padding-top: 600px;
+    }
+    .footer_item h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
