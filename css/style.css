@@ -284,13 +284,13 @@ span {
     margin-top: 16px;
     margin-bottom: 32px;
   }
-  #different .left li span {
+  #different .left-list li span {
     color: var(--Podcast-Landing-Page-teks-1, #13132c);
     font-family: Commissioner;
     font-size: 16px;
     font-weight: 400;
   }
-  #different .left li {
+  #different .left-list li {
     display: flex;
     align-items: center;
     column-gap: 12px;
