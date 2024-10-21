@@ -20,3 +20,125 @@ span{
     display: inline-block;
 }
 /* Common CSS End */
+
+
+/* ======popular section start=========== */
+#popular{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #FAFAFA;
+ 
+}
+.popular-header{
+   
+}
+.popular-header h2{
+    font-size: 48px;
+    color: #13132C;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 600;
+    line-height: 77px;
+    text-transform: capitalize;
+   
+}
+.popular-header p{
+    font-size: 14px;
+    color: #898998;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+  
+   
+}
+.popular-taps{
+    margin-top: 20px;
+}
+
+.nav-taps-button{
+    margin-bottom: 48px;
+}
+.nav-taps-button button{
+    padding: 18px 32px;
+    background-color: transparent;
+    color: #898998;
+    border: none;
+    font-family: "Commissioner", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #dddddd;
+    transition: all linear 0.3s;
+
+}
+.nav-taps-button button:hover{
+  background-color: #7678ED;
+    color: #fff;
+   
+
+}
+
+.popular-items{
+    background-color: #fff;
+    padding: 24px ;
+    box-sizing: border-box;
+
+    border: 1px solid black;
+}
+.popular-image{
+    
+    height: 234px;
+    overflow: hidden;
+}
+.popular-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.popular-content{
+    margin-top: 24px;
+}
+.left-content h6{
+    font-family: "Commissioner", sans-serif;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #13132C;
+    line-height: 28px;
+}
+.left-content ul{
+    font-family: "Commissioner", sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #898998;
+    column-gap: 16px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.left-content ul li:last-child{
+    position: relative;
+}
+.left-content ul li:last-child::after{
+    position: absolute;
+    content: " ";
+    top: 50%;
+    left: -7px;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #898998;
+}
+
+.play-button {
+   width: 48px;
+   height: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid  #898998;
+   border-radius: 50%;
+   font-size: 12px;
+   color: #7678ED;
+}
+
+/* ======popular section end=========== */
+
