@@ -31,9 +31,8 @@ span{
     background-color: #FAFAFA;
  
 }
-.popular-header{
-   
-}
+
+
 .popular-header h2{
     font-size: 48px;
     color: #13132C;
@@ -49,9 +48,8 @@ span{
     font-family: "Commissioner", sans-serif;
     font-weight: 400;
     line-height: 24px;
-  
-   
 }
+
 .popular-taps{
     margin-top: 20px;
 }
@@ -82,8 +80,6 @@ span{
     background-color: #fff;
     padding: 24px ;
     box-sizing: border-box;
-
-    border: 1px solid black;
 }
 .popular-image{
     
