@@ -29,6 +29,7 @@
 @media (min-width:576px) and (max-width:767px) {
         /* -------Review Section Responsive----- */
     .review_wrap{
+        display: flex;
         justify-content: start;
         gap: 20px;
     }
@@ -49,5 +50,38 @@
     .footer_item h4{
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+      /* -------Review Section Responsive----- */
+      #review {
+        margin-top: -250px;
+    }   
+    .review_item{
+        width: auto;
+    }
+    .review_item_md{
+        margin-top: 20px;
+    }
+        /* ------Footer Section Responsive---- */
+    #footer {
+        background: #13132C;
+        padding-top: 350px;
+    }
+    .footer_item h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+      /* -------Review Section Responsive----- */
+    #review {
+        margin-top: -150px;
+    }
+    .review_item{
+        width: auto;
+    }
+    .review_item img{
+        object-fit: contain;
     }
 }
