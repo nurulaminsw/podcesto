@@ -1,69 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name='description' content='Podcesto'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Podcesto" />
     <title>Podcesto</title>
 
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-    
     <!-- Bootstrap CSS File  -->
-     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
-     <!-- Custom CSS file -->
-      <link rel="stylesheet" href="./css/style.css">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="./css/style.css" />
 
-     <!-- Custom CSS file -->
-      <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- ============= Navbar Start Here ================== -->
 
-  <!-- ============= Navbar Start Here ================== -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img class="logo" src="./images/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Episodes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
 
-<nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <a class="navbar-brand" href="./index.html">
-          <img class="logo" src="./images/logo.png" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Episodes</a>
-        </li><li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Reviews</a>
-        </li><li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Blog</a>
-        </li><li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Contact</a>
-        </li> 
-      </ul>
-  
-        <button class="sub-btn" type="submit">Subscribe</button>
-      
-    </div>
-  </div>
-</nav>
+          <button class="sub-btn" type="submit">Subscribe</button>
+        </div>
+      </div>
+    </nav>
 
-
-<!-- ============= Navbar End Here ================== -->
-    
+    <!-- ============= Navbar End Here ================== -->
 
     <!-- Pricing Start -->
     <section id="pricing">
       <div class="container">
         <div class="row mb-4 mb-xl-5">
           <div class="col-xl-6 mx-auto text-center">
-            <h2 class="priceTitle text-center">Flexible Pricing Plan That Suit With Your needs</h2>
-            <p class="priceDetails text-center mx-auto mt-3 mb-4 mt-xl-4 mb-xl-5">Waste of resources our competitors are jumping the shark for to be inspired is to become creative podcast hoster</p>
-            <div class="priceBtns mx-auto d-inline-flex justify-content-center gap-3 ">
+            <h2 class="priceTitle text-center">
+              Flexible Pricing Plan That Suit With Your needs
+            </h2>
+            <p
+              class="priceDetails text-center mx-auto mt-3 mb-4 mt-xl-4 mb-xl-5"
+            >
+              Waste of resources our competitors are jumping the shark for to be
+              inspired is to become creative podcast hoster
+            </p>
+            <div
+              class="priceBtns mx-auto d-inline-flex justify-content-center gap-3"
+            >
               <a href="#" class="priceBtn py-3 py-xl-3">Weekly</a>
               <a href="#" class="priceBtn py-3 py-xl-3">Monthly</a>
             </div>
@@ -72,56 +90,211 @@
         <div class="row g-4">
           <div class="col-md-6 col-xl-4">
             <div class="cord">
-              <div class="priceCardTitle text-center text-capitalize">Beginner Plan</div>
-              <p class="priceCardDetails text-center mx-auto my-xl-4">Fast track design thinking yet quaterly sales are at at an all-time low budget</p>
+              <div class="priceCardTitle text-center text-capitalize">
+                Beginner Plan
+              </div>
+              <p class="priceCardDetails text-center mx-auto my-xl-4">
+                Fast track design thinking yet quaterly sales are at at an
+                all-time low budget
+              </p>
               <p class="priceAmount text-center"><span>$19</span> /month</p>
               <ul>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i> 6 times for skipping</li>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i> 12 blog per days</li>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i> 3 content only</li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i> 6 times for skipping
+                </li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i> 12 blog per days
+                </li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i> 3 content only
+                </li>
               </ul>
               <a href="#" class="priceCardBtn">Learn More</a>
             </div>
           </div>
           <div class="col-md-6 col-xl-4">
             <div class="cord">
-              <div class="priceCardTitle text-center text-capitalize">Professional Plan</div>
-              <p class="priceCardDetails text-center mx-auto my-xl-4">Fast track design thinking yet quaterly sales are at at an all-time low budget</p>
+              <div class="priceCardTitle text-center text-capitalize">
+                Professional Plan
+              </div>
+              <p class="priceCardDetails text-center mx-auto my-xl-4">
+                Fast track design thinking yet quaterly sales are at at an
+                all-time low budget
+              </p>
               <p class="priceAmount text-center"><span>$29</span> /month</p>
               <ul>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i> 12 times for skipping</li>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i> 24 blog per days</li>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i> 6 content only</li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i> 12 times for skipping
+                </li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i> 24 blog per days
+                </li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i> 6 content only
+                </li>
               </ul>
               <a href="#" class="priceCardBtn">Learn More</a>
             </div>
           </div>
           <div class="col-md-6 col-xl-4">
             <div class="cord">
-              <div class="priceCardTitle text-center text-capitalize">Business Plan</div>
-              <p class="priceCardDetails text-center mx-auto my-xl-4">Fast track design thinking yet quaterly sales are at at an all-time low budget</p>
+              <div class="priceCardTitle text-center text-capitalize">
+                Business Plan
+              </div>
+              <p class="priceCardDetails text-center mx-auto my-xl-4">
+                Fast track design thinking yet quaterly sales are at at an
+                all-time low budget
+              </p>
               <p class="priceAmount text-center"><span>$59</span> /month</p>
               <ul>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i>Unlimited times for skipping</li>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i>Unlimited blog per days</li>
-                <li class="priceCardItem"><i class="fa-solid fa-circle-check"></i>Unlimited content only</li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i>Unlimited times for
+                  skipping
+                </li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i>Unlimited blog per
+                  days
+                </li>
+                <li class="priceCardItem">
+                  <i class="fa-solid fa-circle-check"></i>Unlimited content only
+                </li>
               </ul>
               <a href="#" class="priceCardBtn">Learn More</a>
             </div>
           </div>
         </div>
       </div>
-     </section>
+    </section>
     <!-- Pricing End -->
 
+    <!-- podcast start -->
+    <section id="podcast">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto">
+            <div class="title">
+              <h2>You can record your podcast easily and quickly</h2>
+              <p>
+                The podcast world is booming and Podcesto has the ambition to keep up with this world by making
+                features that make it easy. All the features on Podcesto are very easy to use
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="box-items">
+                <div class="box-img">
+                  <img src="images/p1.svg" alt="p1" />
+                </div>
+                <div class="box-title">
+                  <h3>Record Your Podcast</h3>
+                  <p>
+                    Record your podcast as creatively possible passenger good
+                    voice
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="box-items">
+                <div class="box-img">
+                  <img src="images/p2.svg" alt="p2" />
+                </div>
+                <div class="box-title">
+                  <h3>Edit Your Podcast</h3>
+                  <p>Edit podcast with the settings podcast voice provided</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="box-items">
+                <div class="box-img">
+                  <img src="images/p3.svg" alt="p3" />
+                </div>
+                <div class="box-title">
+                  <h3>Upload Your Podcast</h3>
+                  <p>Upload podcast on this or other podcast voice platform</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="box-items">
+                <div class="box-img">
+                  <img src="images/p4.svg" alt="p4" />
+                </div>
+                <div class="box-title">
+                  <h3>Go Premium Podcast</h3>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <p>
+                        Exclusive podcast from our original content and
+                        favourite
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- podcast end -->
+    <!-- different start -->
+    <section id="different">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="left">
+              <h3>What makes us different from others</h3>
+              <p>
+                Waste of resources our competitors are jumping the shark for to
+                be inspired is to become creative podcast hoster
+              </p>
+              <div class="left-list">
+                <ul>
+                  <li>
+                    <img src="images/tick.svg" alt="tick" />
+                    <span>Latest and feasable topics</span>
+                  </li>
+                  <li>
+                    <img src="images/tick.svg" alt="tick" />
+                    <span>Curated speakers</span>
+                  </li>
+                  <li>
+                    <img src="images/tick.svg" alt="tick" />
+                    <span>Available an all platform</span>
+                  </li>
+                </ul>
+              </div>
 
+            </div>
+            <div class="bottom-item">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
 
+            <div class="col-lg-6 order-1 order-lg-2">
+              <div class="right">
+                <img src="images/diffimg.png" alt="diffimg" />
+              </div>
 
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Fontawesome CDN Link -->
-        <script src="https://kit.fontawesome.com/5e82e4ce8d.js" crossorigin="anonymous"></script>
-        
-        <!-- bootstrap JS Link -->
-        <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- different end -->
+
+    <!-- Fontawesome CDN Link -->
+    <script
+      src="https://kit.fontawesome.com/5e82e4ce8d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap JS Link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
