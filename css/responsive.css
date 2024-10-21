@@ -1,7 +1,46 @@
 
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
-    
+   
+    /* Banner start */
+    #banner {
+        padding: 15px 0 0;
+    }
+    .bannerImg {
+        width: 78%;
+        height: 256px;
+        float: right;
+    }
+    .bannerImg ul {
+        padding: 11px;
+        top: 114px;
+    }
+    .bannerIcon {
+        width: 24px;
+        height: 24px;
+        padding: 5px;
+    }
+    .bannerImg ul li p {
+        font-size: 8px;
+    }
+    .bannerImg ul li h5 {
+        font-size: 8px;
+    }
+    #banner .bannerTitle {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 24px;
+        text-align: center;
+    }
+    #banner .bannerDetails {
+        margin-top: 0;
+        text-align: center;
+    }
+    .bannerButtons {
+        justify-content: center;
+        column-gap: 16px;
+    }
+    /* Banner end */
 
 
 
@@ -25,6 +64,13 @@
     #pricing .cord ul {
 	    margin: 0 18px;
     }
+    .bannerLisSub {
+        justify-content: center;
+        margin-top: 16px;
+    }
+    .bannerLisSub .bannerCount span {
+        font-size: 30px;
+    }
     /* Price Part End */
   
 
@@ -36,6 +82,53 @@
     
     
 
+        /* Banner start */
+        #banner {
+            padding: 15px 0 0;
+        }
+        .bannerImg {
+            width: 84%;
+            height: 340px;
+            float: right;
+        }
+        .bannerImg ul {
+            padding: 11px;
+            top: 138px;
+        }
+        .bannerIcon {
+            width: 35px;
+            height: 35px;
+            padding: 7px;
+        }
+        .bannerImg ul li p {
+            font-size: 11px;
+        }
+        .bannerImg ul li h5 {
+            font-size: 11px;
+        }
+        #banner .bannerTitle {
+            font-size: 24px;
+            line-height: 36px;
+            margin-top: 24px;
+            text-align: center;
+        }
+        #banner .bannerDetails {
+            margin-top: 0;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .bannerButtons {
+            justify-content: center;
+            column-gap: 16px;
+        }
+        .bannerLisSub {
+            justify-content: center;
+            margin-top: 24px;
+        }
+        .bannerLisSub .bannerCount span {
+            font-size: 30px;
+        }
+        /* Banner end */
 
 
         /* Price Part Start */
@@ -63,6 +156,53 @@
     @media (min-width: 768px) and (max-width: 991.999px) {
         
         
+        /* Banner start */
+        #banner {
+            padding: 15px 0 0;
+        }
+        .bannerImg {
+            width: 84%;
+            height: 340px;
+            float: right;
+        }
+        .bannerImg ul {
+            padding: 11px;
+            top: 138px;
+        }
+        .bannerIcon {
+            width: 35px;
+            height: 35px;
+            padding: 7px;
+        }
+        .bannerImg ul li p {
+            font-size: 11px;
+        }
+        .bannerImg ul li h5 {
+            font-size: 11px;
+        }
+        #banner .bannerTitle {
+            font-size: 24px;
+            line-height: 36px;
+            margin-top: 24px;
+            text-align: center;
+        }
+        #banner .bannerDetails {
+            max-width: unset;
+            text-align: center;
+        }
+        .bannerButtons {
+            justify-content: center;
+            column-gap: 16px;
+        }
+        .bannerLisSub {
+            justify-content: center;
+            margin-top: 24px;
+        }
+        .bannerLisSub .bannerCount span {
+            font-size: 38px;
+        }
+        /* Banner end */
+        
 
         
         /* Price Part Start */
@@ -88,10 +228,55 @@
     /* (lg) Large devices (desktops, 992px and up) */
     @media (min-width: 992px) and (max-width: 1199.999px) {
        
+        #banner {
+            padding: 15px 0 0;
+        }
+        .bannerImg {
+            width: 84%;
+            height: 340px;
+            float: right;
+        }
+        .bannerImg ul {
+            padding: 11px;
+            top: 138px;
+        }
+        .bannerIcon {
+            width: 35px;
+            height: 35px;
+            padding: 7px;
+        }
+        .bannerImg ul li p {
+            font-size: 11px;
+        }
+        .bannerImg ul li h5 {
+            font-size: 11px;
+        }
+        #banner .bannerTitle {
+            font-size: 44px;
+            line-height: 50px;
+            margin-top: 0;
+            text-align: center;
+        }
+        #banner .bannerDetails {
+            max-width: unset;
+            text-align: center;
+        }
+        .bannerButtons {
+            justify-content: center;
+            column-gap: 16px;
+        }
+        .bannerLisSub {
+            justify-content: center;
+            margin-top: 24px;
+        }
+        .bannerLisSub .bannerCount span {
+            font-size: 38px;
+        }
+        /* Banner end */
 
 
         /* Price Part Start */
-        #pricing {
+                #pricing {
             padding: 30px 0;
         }
         #pricing .priceDetails {
@@ -114,6 +299,9 @@
 
     
     /* Price Part Start */
+    #pricing .priceTitle {
+        font-size: 47px;
+    }
     #pricing {
         padding: 40px 0 40px;
     }
