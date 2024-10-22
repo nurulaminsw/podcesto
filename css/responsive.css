@@ -661,3 +661,77 @@
   /* different start */
   /* different end */
 }
+@media (max-width:575.99px) {
+    
+#popular{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.popular-header h2{
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+   
+}
+
+.popular-header p{
+  padding: 0 0;
+}
+
+
+.nav-taps-button{
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left button{
+    width: 141px;
+    padding: 15px 20px;
+    
+}
+
+.right button{
+    width: 118px;
+    padding: 15px 20px;
+    
+}
+
+.nav-taps-button .left button{
+    margin-top: 16px;
+}
+.nav-taps-button .right button{
+    margin-top: 16px;
+}
+
+.nav-taps-button{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
