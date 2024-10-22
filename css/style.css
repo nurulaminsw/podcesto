@@ -182,4 +182,123 @@ span {
 
 
 
+/* blog css start */
+#blog{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+#blog .title{
+    text-align: center;
+}
+#blog h2{
+    font-size: 48px;
+    width: 570px;
+    color: #13132C;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+#blog p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 550px;
+    color: #898998;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+#blog .box-one img{
+    width: 100%;
+    padding: 24px;
+}
+#blog .box-one h3{
+    font-size: 20px;
+    width: 336px;
+    color: #13132C;
+    line-height: 32px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#blog .box-one p{
+    font-size: 14px;
+    width: 336px;
+    color: #898998;
+    line-height: 24px;
+    margin: 0 auto;
+}
+#blog .icon a{
+    color: #F18701;
+    margin: 24px 12px 24px 35px;
+}
+#blog .icon i{
+    color: #F18701;
+}
+
+#blog .box-two img{
+    width: 100%;
+    padding: 24px;
+}
+#blog .box-two h3{
+    font-size: 20px;
+    width: 336px;
+    color: #13132C;
+    line-height: 32px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#blog .box-two p{
+    font-size: 14px;
+    width: 336px;
+    color: #898998;
+    line-height: 24px;
+    margin: 0 auto;
+}
+#blog .icon a{
+    color: #F18701;
+    margin: 24px 12px 24px 35px;
+}
+
+#blog .box-three img{
+    width: 100%;
+    padding: 24px;
+}
+#blog .box-three h3{
+    font-size: 20px;
+    width: 336px;
+    color: #13132C;
+    line-height: 32px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#blog .box-three p{
+    font-size: 14px;
+    width: 336px;
+    color: #898998;
+    line-height: 24px;
+    margin: 0 auto;
+}
+#blog .icon a{
+    color: #F18701;
+    margin: 24px 12px 24px 35px;
+}
+
+#blog .btn{
+    width: 100%;
+    margin-top: 48px;
+}
+#blog button a{
+    padding: 15px 40px;
+    font-size: 16px;
+    color: #7678ED;
+    border: none;
+    border: .5px solid #7678ED;
+}
+/* blog css end */
+
+
+
 

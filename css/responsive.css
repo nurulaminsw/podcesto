@@ -26,6 +26,51 @@
 	    margin: 0 18px;
     }
     /* Price Part End */
+
+    /* blog part start */
+    #blog {
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+    #blog .box-one img {
+        padding: 20.44px;
+    }
+    #blog h2 {
+        font-size: 24px;
+        width: 327px;
+        line-height: 36px;
+    }
+    #blog p {
+        font-size: 14px;
+        width: 338px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    #blog .box-one h3 {
+        font-size: 17px;
+        width: 286px;
+        color: #13132C;
+        line-height: 27px;
+        margin: 0 auto;
+    }
+    #blog .box-one p {
+        font-size: 11.92px;
+        width: 286px;
+        line-height: 20.4px;
+        margin: 0 auto;
+        margin-top: 14px;
+        margin-bottom: 20px;
+    }
+    #blog .icon a {
+        margin: 0px 10px 20px 20px;
+    }
+    #blog .box-two{
+        display: none;
+    }
+    #blog .box-three{
+        display: none;
+    }
+    /* blog part end */
   
 
 }
@@ -50,10 +95,53 @@
             padding: 0 56px;
         }
         /* Price Part End */
-        
-        
-        
-        
+
+        /* blog part start */
+        #blog {
+            padding-top: 24px;
+            padding-bottom: 48px;
+        }
+        #blog .box-one img {
+            padding: 35.44px;
+        }
+        #blog h2 {
+            font-size: 42px;
+            width: 528px;
+            line-height: 60px;
+        }
+        #blog p {
+            font-size: 18px;
+            width: 468px;
+            margin-top: 16px;
+            margin-bottom: 24px;
+            line-height: 35px;
+        }
+        #blog .box-one h3 {
+            font-size: 26px;
+            width: 450px;
+            line-height: 40px;
+            margin: 0 auto;
+        }
+        #blog .box-one p {
+            font-size: 19px;
+            width: 453px;
+            line-height: 32.4px;
+            margin: 0 auto;
+            margin-top: 15px;
+            margin-bottom: 24px;
+        }
+        #blog .icon a {
+            margin: 10px 11px 20px 30px;
+        }
+        #blog .box-two{
+            display: none;
+        }
+        #blog .box-three{
+            display: none;
+        }
+        /* blog part end */
+
+
         
     }
     
@@ -78,6 +166,48 @@
             letter-spacing: 1px;
         }
         /* Price Part End */
+
+
+        
+        /* blog part start */
+
+        #blog {
+            padding-top: 24px;
+            padding-bottom: 48px;
+        }
+        #blog .box-one img {
+            padding: 35.44px;
+        }
+        #blog h2 {
+            font-size: 42px;
+            width: 528px;
+            line-height: 60px;
+        }
+        #blog p {
+            font-size: 18px;
+            width: 468px;
+            margin-top: 16px;
+            margin-bottom: 24px;
+            line-height: 35px;
+        }
+        #blog .box-one h3 {
+            font-size: 26px;
+            width: 450px;
+            line-height: 40px;
+            margin: 0 auto;
+        }
+        #blog .box-one p {
+            font-size: 19px;
+            width: 453px;
+            line-height: 32.4px;
+            margin: 0 auto;
+            margin-top: 15px;
+            margin-bottom: 24px;
+        }
+        #blog .icon a {
+            margin: 10px 11px 20px 30px;
+        }
+        /* blog part end */
         
         
         
@@ -98,6 +228,46 @@
             max-width: unset;
         }
         /* Price Part End */
+
+        /* blog part start */
+        #blog .box-one h3 {
+            font-size: 18px;
+            width: 251px;
+        }
+        #blog .box-one p {
+            font-size: 14px;
+            width: 252px;
+            color: #898998;
+            line-height: 30px;
+            margin: 0 auto;
+        }
+        #blog .box-two h3 {
+            font-size: 18px;
+            width: 251px;
+        }
+        #blog .box-two p {
+            font-size: 14px;
+            width: 252px;
+            color: #898998;
+            line-height: 30px;
+            margin: 0 auto;
+        }
+        #blog .box-three h3 {
+            font-size: 18px;
+            width: 251px;
+        }
+        #blog .box-three p {
+            font-size: 14px;
+            width: 252px;
+            color: #898998;
+            line-height: 30px;
+            margin: 0 auto;
+        }
+        #blog .icon a {
+            color: #F18701;
+            margin: 20px 12px 24px 20px;
+        }
+        /* blog part end */
         
         
         
