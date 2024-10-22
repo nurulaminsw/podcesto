@@ -1,4 +1,3 @@
-
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
    
@@ -41,8 +40,38 @@
         column-gap: 16px;
     }
     /* Banner end */
+  /* Price Part Start */
+  #pricing {
+    padding: 10px 0 50px;
+  }
+  #pricing .priceTitle {
+    font-size: 27px;
+  }
+  #pricing .priceDetails {
+    max-width: unset;
+    padding: 0 10px;
+  }
+  #pricing .cord .priceCardTitle {
+    font-size: 24px;
+  }
+  #pricing .cord .priceAmount span {
+    font-size: 27px;
+  }
+  #pricing .cord ul {
+    margin: 0 18px;
+  }
+  /* Price Part End */
 
+  /* podcast start */
+  #podcast .title h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
 
+  #podcast .title p {
+    max-width: 327px;
+    margin: 0 auto;
+  }
 
     /* Price Part Start */
     #pricing {
@@ -73,14 +102,65 @@
     }
     /* Price Part End */
   
+  #podcast .box {
+    margin-top: 32px;
+  }
+  #podcast .box-items {
+    margin-bottom: 32px;
+  }
+  #podcast {
+    padding-bottom: 10px;
+  }
+  /* podcast end */
+  /* different start */
+  #different .left h3 {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+  }
+  #different .left p {
+    max-width: 386px;
+    text-align: center;
+  }
+  #different .right img {
+    margin-top: 14px;
+    width: 327px;
+    height: 234px;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+  }
 
+  #different {
+    margin-top: 48px;
+  }
+  #different .left-list {
+    display: flex;
+    justify-content: center;
+  }
+  #different .bottom-item {
+    text-align: center;
+  }
+  #different {
+    margin-bottom: 24px;
+  }
+
+  /* different end */
 }
-
 
 /* (sm) Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.999px) {
-    
-    
+  /* Price Part Start */
+  #pricing {
+    padding: 20px 0 50px;
+  }
+  #pricing .priceTitle {
+    font-size: 35px;
+  }
+  #pricing .priceDetails {
+    max-width: unset;
+    padding: 0 56px;
+  }
+  /* Price Part End */
 
         /* Banner start */
         #banner {
@@ -129,7 +209,16 @@
             font-size: 30px;
         }
         /* Banner end */
+  /* podcast start */
+  #podcast .title h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
 
+  #podcast .title p {
+    max-width: 350px;
+    margin: 0 auto;
+  }
 
         /* Price Part Start */
         #pricing {
@@ -315,13 +404,163 @@
     
     
     
+  #podcast .box {
+    margin-top: 32px;
+  }
+  #podcast .box-items {
+    margin-bottom: 32px;
+  }
+  #podcast {
+    padding-bottom: 10px;
+  }
+  /* podcast end */
+  /* different start */
+  #different .left h3 {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+  }
+  #different .left p {
+    max-width: 400px;
+    text-align: center;
+  }
+  #different .right img {
+    margin-top: 14px;
+    width: 327px;
+    height: 234px;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+  }
+
+  #different {
+    margin-top: 48px;
+  }
+  #different .left-list {
+    display: flex;
+    justify-content: center;
+  }
+  #different .bottom-item {
+    text-align: center;
+  }
+  #different {
+    margin-bottom: 28px;
+  }
+  /* different end */
 }
 
+/* (md) Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.999px) {
+  /* Price Part Start */
+  #pricing {
+    padding: 30px 0 50px;
+  }
+  #pricing .priceTitle {
+    font-size: 45px;
+  }
+  #pricing .priceDetails {
+    max-width: unset;
+    padding: 0 57px;
+    letter-spacing: 1px;
+  }
+  /* Price Part End */
 
+  /* podcast start */
+  #podcast .title h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
 
+  #podcast .title p {
+    max-width: 380px;
+    margin: 0 auto;
+  }
 
+  #podcast .box {
+    margin-top: 38px;
+  }
+  #podcast .box-items {
+    margin-bottom: 34px;
+  }
+  #podcast {
+    padding-bottom: 18px;
+  }
+  /* podcast end */
+  /* different start */
+  #different .left h3 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+  #different .left p {
+    max-width: 386px;
+    text-align: center;
+  }
+  #different .left {
+    padding-top: 37px;
+    box-sizing: border-box;
+  }
+  #different .right img {
+    margin-top: 14px;
+    width: 100%;
+    height: 234px;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    object-fit: cover;
+  }
 
+  #different {
+    margin-top: 48px;
+  }
+  #different .left-list {
+    display: flex;
+    justify-content: center;
+  }
+  #different .bottom-item {
+    text-align: center;
+  }
+  #different {
+    margin-bottom: 24px;
+  }
+  /* different end */
+}
 
+/* (lg) Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.999px) {
+  /* Price Part Start */
+  #pricing {
+    padding: 30px 0;
+  }
+  #pricing .priceDetails {
+    max-width: unset;
+  }
+  /* Price Part End */
+
+  /* podcast start */
+  /* podcast end */
+  /* different start */
+  /* different end */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.999px) {
+  /* Price Part Start */
+  #pricing {
+    padding: 40px 0 40px;
+  }
+  #pricing .priceDetails {
+    max-width: unset;
+  }
+  #pricing .cord ul {
+    margin: 0 14px;
+  }
+  /* Price Part End */
+
+  /* podcast start */
+  /* podcast end */
+  /* different start */
+  /* different end */
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
@@ -416,4 +655,9 @@
     .review_item img{
         object-fit: contain;
     }
+}
+  /* podcast start */
+  /* podcast end */
+  /* different start */
+  /* different end */
 }
