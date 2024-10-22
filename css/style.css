@@ -46,7 +46,7 @@ span {
 
 /* Common CSS End */
 
-/* Pricing End */
+/* Navbar Start Here */
 .navbar{
     padding: 36px 0px;
 }
@@ -60,13 +60,12 @@ span {
     display: flex;
     column-gap: 49px;
 }
-
 .nav-item .nav-link:hover{
     color: #7678ED;
 }
 .nav-item .nav-link{
  color:  #62636C;
- /*Commissioner/Commissioner16Regular*/font-family: "Commissioner", sans-serif;
+ font-family: "Commissioner", sans-serif;
  font-size: 16px;
  font-style: normal;
  font-weight: 400;
@@ -78,7 +77,6 @@ span {
  -ms-transition:0.3s ;
  -o-transition:0.3s ;
 }
-
 .sub-btn {
   padding: 16px 32px;
   background-color: #7678ED;
@@ -90,13 +88,109 @@ span {
   line-height: 16px; 
   border: none;
 }
-
-/* Navbar Start Here */
-
 /* Navbar End Here */
 
-/* Banner Start Here */
-/* Banner End Here */
+/* Banner Start */
+#banner{
+    padding: 48px 0 0;
+}
+#banner *{
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+#banner .bannerTitle{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 76px;
+    color: #13132C;
+}
+#banner .bannerDetails{
+    max-width: 416px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #898998;
+    margin-top: 16px;
+}
+.bannerButtons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 24px;
+}
+#banner .bannerBtn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #7678ED;
+    border: 1px solid #7678ED;
+    padding: 16px 48px;
+    margin-top: 16px;
+}
+#banner .bannerBtn:hover{
+    color: #fff;
+    background-color: #7678ED;
+}
+.bannerLisSub{
+    margin-top: 56px;
+}
+.bannerLisSub .bannerCount{
+    font-size: 16px;
+    font-weight: 400;
+    color: #13132C;
+}
+.bannerLisSub .bannerCount span{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #F18701;
+}
+.bannerImg{
+    width: 560px;
+    height: 520px;
+    background-color: #C4C4C4;
+    position: relative;
+}
+.bannerImg ul{
+    padding: 24px;
+    background-color: #fff;
+    position: absolute;
+    top: 232px;
+    left: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 3;
+}
+.bannerIcon{
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    color: #F18701;
+    background-color: #FFF7EC;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.bannerImg ul li p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #898998;
+}
+.bannerImg ul li h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #13132C;
+}
+
+/* Banner End */
 
 
 /* Pricing Start */
