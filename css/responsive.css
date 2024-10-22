@@ -1,231 +1,256 @@
-
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
-    
-
-
 
     /* Price Part Start */
     #pricing {
         padding: 10px 0 50px;
     }
+
     #pricing .priceTitle {
         font-size: 27px;
     }
+
     #pricing .priceDetails {
         max-width: unset;
         padding: 0 10px;
     }
+
     #pricing .cord .priceCardTitle {
         font-size: 24px;
     }
+
     #pricing .cord .priceAmount span {
         font-size: 27px;
     }
+
     #pricing .cord ul {
-	    margin: 0 18px;
+        margin: 0 18px;
     }
+
     /* Price Part End */
-  
-
-}
-
-
-/* (sm) Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.999px) {
-    
-    
-
-
-
-        /* Price Part Start */
-        #pricing {
-            padding: 20px 0 50px;
-        }
-        #pricing .priceTitle {
-            font-size: 35px;
-        }
-        #pricing .priceDetails {
-            max-width: unset;
-            padding: 0 56px;
-        }
-        /* Price Part End */
-        
-        
-        
-        
-        
+    /* -------BLOG Section Responsive Start----- */
+    .blog_head h3 {
+        font-size: 40px;
     }
-    
-    
-    
-    /* (md) Medium devices (tablets, 768px and up) */
-    @media (min-width: 768px) and (max-width: 991.999px) {
-        
-        
 
-        
-        /* Price Part Start */
-        #pricing {
-            padding: 30px 0 50px;
-        }
-        #pricing .priceTitle {
-            font-size: 45px;
-        }
-        #pricing .priceDetails {
-            max-width: unset;
-            padding: 0 57px;
-            letter-spacing: 1px;
-        }
-        /* Price Part End */
-        
-        
-        
+    .blog_head p {
+        width: auto;
     }
-    
-    
-    
-    /* (lg) Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) and (max-width: 1199.999px) {
-       
-
-
-        /* Price Part Start */
-        #pricing {
-            padding: 30px 0;
-        }
-        #pricing .priceDetails {
-            max-width: unset;
-        }
-        /* Price Part End */
-        
-        
-        
-        
+    .blog_item {
+        width: auto;
     }
-    
-    
-    
-    /* X-Large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) and (max-width: 1399.999px) {
-       
 
-
-
-    
-    /* Price Part Start */
-    #pricing {
-        padding: 40px 0 40px;
+    /* -------Review Section Responsive Start----- */
+    #review {
+        margin-top: -350px;
     }
-    #pricing .priceDetails {
-        max-width: unset;
-    }
-    #pricing .cord ul {
-        margin: 0 14px;
-    }
-    /* Price Part End */
-    
-    
-    
-}
 
-
-
-
-
-
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-    
-
-
-
-
-
-
-@media (max-width:575px){
-    /* -------Review Section Responsive----- */
-    .review_head h3{
+    .review_head h3 {
         width: auto;
         font-size: 40px;
     }
-    .review_wrap{
+
+    .review_wrap {
         gap: 20px;
     }
-    .review_item{
+
+    .review_item {
         width: auto;
     }
+
     .review_head a {
         top: 1220px;
         right: 75px;
         color: #FFF;
         border: 1px solid #FFF;
     }
-    /* ------Footer Section Responsive---- */
+
+    /* -------Review Section Responsive END----- */
+    /* ------Footer Section Responsive Start---- */
     #footer {
-        padding-top: 600px;
+        padding-top: 580px;
     }
-    
-    .footer_item h4{
+
+    .footer_item h4 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    /* ------Footer Section Responsive END---- */
 }
-@media (min-width:576px) and (max-width:767px) {
-        /* -------Review Section Responsive----- */
-    .review_wrap{
-        display: flex;
-        justify-content: start;
-        gap: 20px;
+
+/* (sm) Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.999px) {
+
+    /* Price Part Start */
+    #pricing {
+        padding: 20px 0 50px;
     }
 
+    #pricing .priceTitle {
+        font-size: 35px;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+        padding: 0 56px;
+    }
+
+    /* Price Part End */
+    /* -------BLOG Section Responsive Start----- */
+    .blog_head h3 {
+        font-size: 40px;
+    }
+
+    .blog_head p {
+        width: auto;
+    }
+.blog-wrap{
+text-align: center;
+}
+    .blog_item {
+        width: auto;
+        text-align: center;
+    }
+
+    /* -------Review Section Responsive----- */
+    .review_wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .review_head h3 {
+        width: auto;
+        font-size: 45px;
+    }
+    .review_item{
+        width: auto;
+        text-align: center;
+    }
     .review_head a {
         top: 1180px;
         right: 260px;
         color: #FFF;
         border: 1px solid #FFF;
     }
+
     .pagination ul {
-        justify-content: start;
+        justify-content: center;
     }
-    /* ------Footer Section Responsive---- */
+    .review_head a {
+        top: 1171px;
+        right: 150px;
+        color: #FFF;
+        border: 1px solid #FFF;
+    }
+    /* -------Review Section Responsive END----- */
+    /* ------Footer Section Responsive START---- */
     #footer {
         padding-top: 600px;
     }
-    .footer_item h4{
+
+    .footer_item h4 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    /* ------Footer Section Responsive END---- */
 }
-@media (min-width:768px) and (max-width:991px){
-      /* -------Review Section Responsive----- */
-      #review {
+
+/* (md) Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.999px) {
+
+    /* Price Part Start */
+    #pricing {
+        padding: 30px 0 50px;
+    }
+
+    #pricing .priceTitle {
+        font-size: 45px;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+        padding: 0 57px;
+        letter-spacing: 1px;
+    }
+
+    /* Price Part End */
+    /* -------BLOG Section Responsive----- */
+    /* -------Review Section Responsive----- */
+    #review {
         margin-top: -250px;
-    }   
-    .review_item{
+    }
+
+    .review_item {
         width: auto;
     }
-    .review_item_md{
+
+    .review_item_md {
         margin-top: 20px;
     }
-        /* ------Footer Section Responsive---- */
+
+    /* -------Review Section Responsive END----- */
+    /* ------Footer Section Responsive START---- */
     #footer {
         background: #13132C;
         padding-top: 350px;
     }
-    .footer_item h4{
+
+    .footer_item h4 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-}
-@media (min-width:992px) and (max-width:1200px){
-      /* -------Review Section Responsive----- */
 
-    .review_item{
+    /* ------Footer Section Responsive END---- */
+}
+
+/* (lg) Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.999px) {
+
+    /* Price Part Start */
+    #pricing {
+        padding: 30px 0;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+    }
+
+    /* Price Part End */
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.999px) {
+
+    /* Price Part Start */
+    #pricing {
+        padding: 40px 0 40px;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+    }
+
+    #pricing .cord ul {
+        margin: 0 14px;
+    }
+
+    /* Price Part End */
+    /* -------Review Section Responsive Start----- */
+
+    .review_item {
         width: auto;
     }
-    .review_item img{
+
+    .review_item img {
         object-fit: contain;
     }
+
+    /* -------Review Section Responsive END---- */
 }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

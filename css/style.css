@@ -251,6 +251,17 @@ span {
     font-weight: 500;
     color: #F18701;
 }
+.blog_btn{
+    font-size: 16px;
+    color: #7678ED;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    transition: .4s;
+}
+.blog_btn:hover{
+    background: #7678ED;
+    color: #FFF;
+}
 /*-------------BLOG CSS END---------------*/
 
 
