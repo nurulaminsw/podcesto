@@ -1,77 +1,92 @@
 /* Small devices (phones, 576px and up) */
 @media (max-width: 575.999px) {
-   
+
     /* Banner start */
     #banner {
         padding: 15px 0 0;
     }
+
     .bannerImg {
         width: 78%;
         height: 256px;
         float: right;
     }
+
     .bannerImg ul {
         padding: 11px;
         top: 114px;
     }
+
     .bannerIcon {
         width: 24px;
         height: 24px;
         padding: 5px;
     }
+
     .bannerImg ul li p {
         font-size: 8px;
     }
+
     .bannerImg ul li h5 {
         font-size: 8px;
     }
+
     #banner .bannerTitle {
         font-size: 24px;
         line-height: 36px;
         margin-top: 24px;
         text-align: center;
     }
+
     #banner .bannerDetails {
         margin-top: 0;
         text-align: center;
     }
+
     .bannerButtons {
         justify-content: center;
         column-gap: 16px;
     }
+
     /* Banner end */
-  /* Price Part Start */
-  #pricing {
-    padding: 10px 0 50px;
-  }
-  #pricing .priceTitle {
-    font-size: 27px;
-  }
-  #pricing .priceDetails {
-    max-width: unset;
-    padding: 0 10px;
-  }
-  #pricing .cord .priceCardTitle {
-    font-size: 24px;
-  }
-  #pricing .cord .priceAmount span {
-    font-size: 27px;
-  }
-  #pricing .cord ul {
-    margin: 0 18px;
-  }
-  /* Price Part End */
+    /* Price Part Start */
+    #pricing {
+        padding: 10px 0 50px;
+    }
 
-  /* podcast start */
-  #podcast .title h2 {
-    font-size: 24px;
-    line-height: 36px;
-  }
+    #pricing .priceTitle {
+        font-size: 27px;
+    }
 
-  #podcast .title p {
-    max-width: 327px;
-    margin: 0 auto;
-  }
+    #pricing .priceDetails {
+        max-width: unset;
+        padding: 0 10px;
+    }
+
+    #pricing .cord .priceCardTitle {
+        font-size: 24px;
+    }
+
+    #pricing .cord .priceAmount span {
+        font-size: 27px;
+    }
+
+    #pricing .cord ul {
+        margin: 0 18px;
+    }
+
+    /* Price Part End */
+
+    /* podcast start */
+    #podcast .title h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #podcast .title p {
+        max-width: 327px;
+        margin: 0 auto;
+    }
 
     /* Price Part Start */
     #pricing {
@@ -98,207 +113,69 @@
     #pricing .cord ul {
         margin: 0 18px;
     }
+
     .bannerLisSub {
         justify-content: center;
         margin-top: 16px;
     }
+
     .bannerLisSub .bannerCount span {
         font-size: 30px;
     }
+
     /* Price Part End */
-  
-  #podcast .box {
-    margin-top: 32px;
-  }
-  #podcast .box-items {
-    margin-bottom: 32px;
-  }
-  #podcast {
-    padding-bottom: 10px;
-  }
-  /* podcast end */
-  /* different start */
-  #different .left h3 {
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-  }
-  #different .left p {
-    max-width: 386px;
-    text-align: center;
-  }
-  #different .right img {
-    margin-top: 14px;
-    width: 327px;
-    height: 234px;
-    flex-shrink: 0;
-    margin-bottom: 15px;
-  }
 
-  #different {
-    margin-top: 48px;
-  }
-  #different .left-list {
-    display: flex;
-    justify-content: center;
-  }
-  #different .bottom-item {
-    text-align: center;
-  }
-  #different {
-    margin-bottom: 24px;
-  }
-
-  /* different end */
-}
-
-/* (sm) Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.999px) {
-  /* Price Part Start */
-  #pricing {
-    padding: 20px 0 50px;
-  }
-  #pricing .priceTitle {
-    font-size: 35px;
-  }
-  #pricing .priceDetails {
-    max-width: unset;
-    padding: 0 56px;
-  }
-  /* Price Part End */
-
-        /* Banner start */
-        #banner {
-            padding: 15px 0 0;
-        }
-        .bannerImg {
-            width: 84%;
-            height: 340px;
-            float: right;
-        }
-        .bannerImg ul {
-            padding: 11px;
-            top: 138px;
-        }
-        .bannerIcon {
-            width: 35px;
-            height: 35px;
-            padding: 7px;
-        }
-        .bannerImg ul li p {
-            font-size: 11px;
-        }
-        .bannerImg ul li h5 {
-            font-size: 11px;
-        }
-        #banner .bannerTitle {
-            font-size: 24px;
-            line-height: 36px;
-            margin-top: 24px;
-            text-align: center;
-        }
-        #banner .bannerDetails {
-            margin-top: 0;
-            text-align: center;
-            margin: 0 auto;
-        }
-        .bannerButtons {
-            justify-content: center;
-            column-gap: 16px;
-        }
-        .bannerLisSub {
-            justify-content: center;
-            margin-top: 24px;
-        }
-        .bannerLisSub .bannerCount span {
-            font-size: 30px;
-        }
-        /* Banner end */
-  /* podcast start */
-  #podcast .title h2 {
-    font-size: 26px;
-    line-height: 36px;
-  }
-
-  #podcast .title p {
-    max-width: 350px;
-    margin: 0 auto;
-  }
-
-        /* Price Part Start */
-        #pricing {
-            padding: 20px 0 50px;
-        }
-        #pricing .priceTitle {
-            font-size: 35px;
-        }
-        #pricing .priceDetails {
-            max-width: unset;
-            padding: 0 56px;
-        }
-        /* Price Part End */
-        
-        
-        
-        
-        
+    #podcast .box {
+        margin-top: 32px;
     }
-    
-    
-    
-    /* (md) Medium devices (tablets, 768px and up) */
-    @media (min-width: 768px) and (max-width: 991.999px) {
-        
-        
-        /* Banner start */
-        #banner {
-            padding: 15px 0 0;
-        }
-        .bannerImg {
-            width: 84%;
-            height: 340px;
-            float: right;
-        }
-        .bannerImg ul {
-            padding: 11px;
-            top: 138px;
-        }
-        .bannerIcon {
-            width: 35px;
-            height: 35px;
-            padding: 7px;
-        }
-        .bannerImg ul li p {
-            font-size: 11px;
-        }
-        .bannerImg ul li h5 {
-            font-size: 11px;
-        }
-        #banner .bannerTitle {
-            font-size: 24px;
-            line-height: 36px;
-            margin-top: 24px;
-            text-align: center;
-        }
-        #banner .bannerDetails {
-            max-width: unset;
-            text-align: center;
-        }
-        .bannerButtons {
-            justify-content: center;
-            column-gap: 16px;
-        }
-        .bannerLisSub {
-            justify-content: center;
-            margin-top: 24px;
-        }
-        .bannerLisSub .bannerCount span {
-            font-size: 38px;
-        }
-        /* Banner end */
-        
 
-    /* Price Part End */
+    #podcast .box-items {
+        margin-bottom: 32px;
+    }
+
+    #podcast {
+        padding-bottom: 10px;
+    }
+
+    /* podcast end */
+    /* different start */
+    #different .left h3 {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    #different .left p {
+        max-width: 386px;
+        text-align: center;
+    }
+
+    #different .right img {
+        margin-top: 14px;
+        width: 327px;
+        height: 234px;
+        flex-shrink: 0;
+        margin-bottom: 15px;
+    }
+
+    #different {
+        margin-top: 48px;
+    }
+
+    #different .left-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    #different .bottom-item {
+        text-align: center;
+    }
+
+    #different {
+        margin-bottom: 24px;
+    }
+
+    /* different end */
     /* -------BLOG Section Responsive Start----- */
     .blog_head h3 {
         font-size: 40px;
@@ -307,265 +184,11 @@
     .blog_head p {
         width: auto;
     }
-    
-    
-    
-    /* (lg) Large devices (desktops, 992px and up) */
-    @media (min-width: 992px) and (max-width: 1199.999px) {
-       
-        #banner {
-            padding: 15px 0 0;
-        }
-        .bannerImg {
-            width: 84%;
-            height: 340px;
-            float: right;
-        }
-        .bannerImg ul {
-            padding: 11px;
-            top: 138px;
-        }
-        .bannerIcon {
-            width: 35px;
-            height: 35px;
-            padding: 7px;
-        }
-        .bannerImg ul li p {
-            font-size: 11px;
-        }
-        .bannerImg ul li h5 {
-            font-size: 11px;
-        }
-        #banner .bannerTitle {
-            font-size: 44px;
-            line-height: 50px;
-            margin-top: 0;
-            text-align: center;
-        }
-        #banner .bannerDetails {
-            max-width: unset;
-            text-align: center;
-        }
-        .bannerButtons {
-            justify-content: center;
-            column-gap: 16px;
-        }
-        .bannerLisSub {
-            justify-content: center;
-            margin-top: 24px;
-        }
-        .bannerLisSub .bannerCount span {
-            font-size: 38px;
-        }
-        /* Banner end */
 
-
-        /* Price Part Start */
-                #pricing {
-            padding: 30px 0;
-        }
-        #pricing .priceDetails {
-            max-width: unset;
-        }
-        /* Price Part End */
-        
-        
-        
-        
     .blog_item {
         width: auto;
     }
 
-
-
-    
-    /* Price Part Start */
-    #pricing .priceTitle {
-        font-size: 47px;
-    }
-    #pricing {
-        padding: 40px 0 40px;
-    }
-    #pricing .priceDetails {
-        max-width: unset;
-    }
-    #pricing .cord ul {
-        margin: 0 14px;
-    }
-    /* Price Part End */
-    
-    
-    
-  #podcast .box {
-    margin-top: 32px;
-  }
-  #podcast .box-items {
-    margin-bottom: 32px;
-  }
-  #podcast {
-    padding-bottom: 10px;
-  }
-  /* podcast end */
-  /* different start */
-  #different .left h3 {
-    font-size: 26px;
-    line-height: 36px;
-    text-align: center;
-  }
-  #different .left p {
-    max-width: 400px;
-    text-align: center;
-  }
-  #different .right img {
-    margin-top: 14px;
-    width: 327px;
-    height: 234px;
-    flex-shrink: 0;
-    margin-bottom: 15px;
-  }
-
-  #different {
-    margin-top: 48px;
-  }
-  #different .left-list {
-    display: flex;
-    justify-content: center;
-  }
-  #different .bottom-item {
-    text-align: center;
-  }
-  #different {
-    margin-bottom: 28px;
-  }
-  /* different end */
-}
-
-/* (md) Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.999px) {
-  /* Price Part Start */
-  #pricing {
-    padding: 30px 0 50px;
-  }
-  #pricing .priceTitle {
-    font-size: 45px;
-  }
-  #pricing .priceDetails {
-    max-width: unset;
-    padding: 0 57px;
-    letter-spacing: 1px;
-  }
-  /* Price Part End */
-
-  /* podcast start */
-  #podcast .title h2 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-
-  #podcast .title p {
-    max-width: 380px;
-    margin: 0 auto;
-  }
-
-  #podcast .box {
-    margin-top: 38px;
-  }
-  #podcast .box-items {
-    margin-bottom: 34px;
-  }
-  #podcast {
-    padding-bottom: 18px;
-  }
-  /* podcast end */
-  /* different start */
-  #different .left h3 {
-    font-size: 28px;
-    line-height: 36px;
-    text-align: center;
-  }
-  #different .left p {
-    max-width: 386px;
-    text-align: center;
-  }
-  #different .left {
-    padding-top: 37px;
-    box-sizing: border-box;
-  }
-  #different .right img {
-    margin-top: 14px;
-    width: 100%;
-    height: 234px;
-    flex-shrink: 0;
-    margin-bottom: 15px;
-    text-align: center;
-    object-fit: cover;
-  }
-
-  #different {
-    margin-top: 48px;
-  }
-  #different .left-list {
-    display: flex;
-    justify-content: center;
-  }
-  #different .bottom-item {
-    text-align: center;
-  }
-  #different {
-    margin-bottom: 24px;
-  }
-  /* different end */
-}
-
-/* (lg) Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.999px) {
-  /* Price Part Start */
-  #pricing {
-    padding: 30px 0;
-  }
-  #pricing .priceDetails {
-    max-width: unset;
-  }
-  /* Price Part End */
-
-  /* podcast start */
-  /* podcast end */
-  /* different start */
-  /* different end */
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.999px) {
-  /* Price Part Start */
-  #pricing {
-    padding: 40px 0 40px;
-  }
-  #pricing .priceDetails {
-    max-width: unset;
-  }
-  #pricing .cord ul {
-    margin: 0 14px;
-  }
-  /* Price Part End */
-
-  /* podcast start */
-  /* podcast end */
-  /* different start */
-  /* different end */
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-    
-
-
-
-
-
-
-@media (max-width:575px){
-    /* -------Review Section Responsive----- */
-    .review_head h3{
     /* -------Review Section Responsive Start----- */
     #review {
         margin-top: -350px;
@@ -631,9 +254,11 @@
     .blog_head p {
         width: auto;
     }
-.blog-wrap{
-text-align: center;
-}
+
+    .blog-wrap {
+        text-align: center;
+    }
+
     .blog_item {
         width: auto;
         text-align: center;
@@ -646,14 +271,17 @@ text-align: center;
         align-items: center;
         gap: 20px;
     }
+
     .review_head h3 {
         width: auto;
         font-size: 45px;
     }
-    .review_item{
+
+    .review_item {
         width: auto;
         text-align: center;
     }
+
     .review_head a {
         top: 1180px;
         right: 260px;
@@ -664,12 +292,14 @@ text-align: center;
     .pagination ul {
         justify-content: center;
     }
+
     .review_head a {
         top: 1171px;
         right: 150px;
         color: #FFF;
         border: 1px solid #FFF;
     }
+
     /* -------Review Section Responsive END----- */
     /* ------Footer Section Responsive START---- */
     #footer {
@@ -682,6 +312,371 @@ text-align: center;
     }
 
     /* ------Footer Section Responsive END---- */
+}
+
+/* (sm) Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.999px) {
+
+    /* Price Part Start */
+    #pricing {
+        padding: 20px 0 50px;
+    }
+
+    #pricing .priceTitle {
+        font-size: 35px;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+        padding: 0 56px;
+    }
+
+    /* Price Part End */
+
+    /* Banner start */
+    #banner {
+        padding: 15px 0 0;
+    }
+
+    .bannerImg {
+        width: 84%;
+        height: 340px;
+        float: right;
+    }
+
+    .bannerImg ul {
+        padding: 11px;
+        top: 138px;
+    }
+
+    .bannerIcon {
+        width: 35px;
+        height: 35px;
+        padding: 7px;
+    }
+
+    .bannerImg ul li p {
+        font-size: 11px;
+    }
+
+    .bannerImg ul li h5 {
+        font-size: 11px;
+    }
+
+    #banner .bannerTitle {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    #banner .bannerDetails {
+        margin-top: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .bannerButtons {
+        justify-content: center;
+        column-gap: 16px;
+    }
+
+    .bannerLisSub {
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .bannerLisSub .bannerCount span {
+        font-size: 30px;
+    }
+
+    /* Banner end */
+    /* podcast start */
+    #podcast .title h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    #podcast .title p {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    /* Price Part Start */
+    #pricing {
+        padding: 20px 0 50px;
+    }
+
+    #pricing .priceTitle {
+        font-size: 35px;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+        padding: 0 56px;
+    }
+
+    /* Price Part End */
+
+}
+
+
+
+/* (md) Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.999px) {
+
+
+    /* Banner start */
+    #banner {
+        padding: 15px 0 0;
+    }
+
+    .bannerImg {
+        width: 84%;
+        height: 340px;
+        float: right;
+    }
+
+    .bannerImg ul {
+        padding: 11px;
+        top: 138px;
+    }
+
+    .bannerIcon {
+        width: 35px;
+        height: 35px;
+        padding: 7px;
+    }
+
+    .bannerImg ul li p {
+        font-size: 11px;
+    }
+
+    .bannerImg ul li h5 {
+        font-size: 11px;
+    }
+
+    #banner .bannerTitle {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    #banner .bannerDetails {
+        max-width: unset;
+        text-align: center;
+    }
+
+    .bannerButtons {
+        justify-content: center;
+        column-gap: 16px;
+    }
+
+    .bannerLisSub {
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .bannerLisSub .bannerCount span {
+        font-size: 38px;
+    }
+
+    /* Banner end */
+
+
+    /* Price Part End */
+    /* -------BLOG Section Responsive Start----- */
+    .blog_head h3 {
+        font-size: 40px;
+    }
+
+    .blog_head p {
+        width: auto;
+    }
+     /* -------Review Section Responsive----- */
+     #review {
+        margin-top: -250px;
+    }
+
+    .review_item {
+        width: auto;
+    }
+
+    .review_item_md {
+        margin-top: 20px;
+    }
+
+    /* -------Review Section Responsive END----- */
+    /* ------Footer Section Responsive START---- */
+    #footer {
+        background: #13132C;
+        padding-top: 350px;
+    }
+
+    .footer_item h4 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ------Footer Section Responsive END---- */
+
+}
+
+/* (lg) Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.999px) {
+
+    #banner {
+        padding: 15px 0 0;
+    }
+
+    .bannerImg {
+        width: 84%;
+        height: 340px;
+        float: right;
+    }
+
+    .bannerImg ul {
+        padding: 11px;
+        top: 138px;
+    }
+
+    .bannerIcon {
+        width: 35px;
+        height: 35px;
+        padding: 7px;
+    }
+
+    .bannerImg ul li p {
+        font-size: 11px;
+    }
+
+    .bannerImg ul li h5 {
+        font-size: 11px;
+    }
+
+    #banner .bannerTitle {
+        font-size: 44px;
+        line-height: 50px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    #banner .bannerDetails {
+        max-width: unset;
+        text-align: center;
+    }
+
+    .bannerButtons {
+        justify-content: center;
+        column-gap: 16px;
+    }
+
+    .bannerLisSub {
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .bannerLisSub .bannerCount span {
+        font-size: 38px;
+    }
+
+    /* Banner end */
+
+
+    /* Price Part Start */
+    #pricing {
+        padding: 30px 0;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+    }
+
+    /* Price Part End */
+
+
+
+
+    .blog_item {
+        width: auto;
+    }
+
+
+
+
+    /* Price Part Start */
+    #pricing .priceTitle {
+        font-size: 47px;
+    }
+
+    #pricing {
+        padding: 40px 0 40px;
+    }
+
+    #pricing .priceDetails {
+        max-width: unset;
+    }
+
+    #pricing .cord ul {
+        margin: 0 14px;
+    }
+
+    /* Price Part End */
+
+
+
+    #podcast .box {
+        margin-top: 32px;
+    }
+
+    #podcast .box-items {
+        margin-bottom: 32px;
+    }
+
+    #podcast {
+        padding-bottom: 10px;
+    }
+
+    /* podcast end */
+    /* different start */
+    #different .left h3 {
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    #different .left p {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    #different .right img {
+        margin-top: 14px;
+        width: 327px;
+        height: 234px;
+        flex-shrink: 0;
+        margin-bottom: 15px;
+    }
+
+    #different {
+        margin-top: 48px;
+    }
+
+    #different .left-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    #different .bottom-item {
+        text-align: center;
+    }
+
+    #different {
+        margin-bottom: 28px;
+    }
+
+    /* different end */
 }
 
 /* (md) Medium devices (tablets, 768px and up) */
@@ -703,10 +698,79 @@ text-align: center;
     }
 
     /* Price Part End */
-    /* -------BLOG Section Responsive----- */
+
+    /* podcast start */
+    #podcast .title h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #podcast .title p {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    #podcast .box {
+        margin-top: 38px;
+    }
+
+    #podcast .box-items {
+        margin-bottom: 34px;
+    }
+
+    #podcast {
+        padding-bottom: 18px;
+    }
+
+    /* podcast end */
+    /* different start */
+    #different .left h3 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    #different .left p {
+        max-width: 386px;
+        text-align: center;
+    }
+
+    #different .left {
+        padding-top: 37px;
+        box-sizing: border-box;
+    }
+
+    #different .right img {
+        margin-top: 14px;
+        width: 100%;
+        height: 234px;
+        flex-shrink: 0;
+        margin-bottom: 15px;
+        text-align: center;
+        object-fit: cover;
+    }
+
+    #different {
+        margin-top: 48px;
+    }
+
+    #different .left-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    #different .bottom-item {
+        text-align: center;
+    }
+
+    #different {
+        margin-bottom: 24px;
+    }
+
+    /* different end */
     /* -------Review Section Responsive----- */
     #review {
-        margin-top: -250px;
+        margin-top: -380px;
     }
 
     .review_item {
@@ -746,6 +810,10 @@ text-align: center;
 
     /* Price Part End */
 
+    /* podcast start */
+    /* podcast end */
+    /* different start */
+    /* different end */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -762,9 +830,9 @@ text-align: center;
 
     #pricing .cord ul {
         margin: 0 14px;
+
     }
 
-    /* Price Part End */
     /* -------Review Section Responsive Start----- */
 
     .review_item {
@@ -774,62 +842,18 @@ text-align: center;
     .review_item img {
         object-fit: contain;
     }
-}
-  /* podcast start */
-  /* podcast end */
-  /* different start */
-  /* different end */
-}
-@media (max-width:575.99px) {
-    
-#popular{
-    padding-top: 32px;
-    padding-bottom: 32px;
+
+    /* -------Review Section Responsive END---- */
+    /* Price Part End */
+
+    /* podcast start */
+    /* podcast end */
+    /* different start */
+    /* different end */
 }
 
-
-.popular-header h2{
-    font-size: 32px;
-    line-height: 40px;
-    text-transform: capitalize;
-   
-}
-
-.popular-header p{
-  padding: 0 0;
-}
-
-
-.nav-taps-button{
-    margin-bottom: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.left button{
-    width: 141px;
-    padding: 15px 20px;
-    
-}
-
-.right button{
-    width: 118px;
-    padding: 15px 20px;
-    
-}
-
-.nav-taps-button .left button{
-    margin-top: 16px;
-}
-.nav-taps-button .right button{
-    margin-top: 16px;
-}
-
-.nav-taps-button{
-    margin-bottom: 0px;
-}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 
 
 
@@ -837,21 +861,289 @@ text-align: center;
 
 
 
+    @media (max-width:575px) {
+
+        /* -------Review Section Responsive----- */
+        .review_head h3 {
+
+            /* -------Review Section Responsive Start----- */
+            #review {
+                margin-top: -350px;
+            }
+
+            .review_head h3 {
+                width: auto;
+                font-size: 40px;
+            }
+
+            .review_wrap {
+                gap: 20px;
+            }
+
+            .review_item {
+                width: auto;
+            }
+
+            .review_head a {
+                top: 1220px;
+                right: 75px;
+                color: #FFF;
+                border: 1px solid #FFF;
+            }
+
+            /* -------Review Section Responsive END----- */
+            /* ------Footer Section Responsive Start---- */
+            #footer {
+                padding-top: 580px;
+            }
+
+            .footer_item h4 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            /* ------Footer Section Responsive END---- */
+        }
+
+        /* (sm) Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) and (max-width: 767.999px) {
+
+            /* Price Part Start */
+            #pricing {
+                padding: 20px 0 50px;
+            }
+
+            #pricing .priceTitle {
+                font-size: 35px;
+            }
+
+            #pricing .priceDetails {
+                max-width: unset;
+                padding: 0 56px;
+            }
+
+            /* Price Part End */
+            /* -------BLOG Section Responsive Start----- */
+            .blog_head h3 {
+                font-size: 40px;
+            }
+
+            .blog_head p {
+                width: auto;
+            }
+
+            .blog-wrap {
+                text-align: center;
+            }
+
+            .blog_item {
+                width: auto;
+                text-align: center;
+            }
+
+            /* -------Review Section Responsive----- */
+            .review_wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .review_head h3 {
+                width: auto;
+                font-size: 45px;
+            }
+
+            .review_item {
+                width: auto;
+                text-align: center;
+            }
+
+            .review_head a {
+                top: 1180px;
+                right: 260px;
+                color: #FFF;
+                border: 1px solid #FFF;
+            }
+
+            .pagination ul {
+                justify-content: center;
+            }
+
+            .review_head a {
+                top: 1171px;
+                right: 150px;
+                color: #FFF;
+                border: 1px solid #FFF;
+            }
+
+            /* -------Review Section Responsive END----- */
+            /* ------Footer Section Responsive START---- */
+            #footer {
+                padding-top: 600px;
+            }
+
+            .footer_item h4 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            /* ------Footer Section Responsive END---- */
+        }
+
+        /* (md) Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) and (max-width: 991.999px) {
+
+            /* Price Part Start */
+            #pricing {
+                padding: 30px 0 50px;
+            }
+
+            #pricing .priceTitle {
+                font-size: 45px;
+            }
+
+            #pricing .priceDetails {
+                max-width: unset;
+                padding: 0 57px;
+                letter-spacing: 1px;
+            }
+
+            /* Price Part End */
+            /* -------BLOG Section Responsive----- */
+            /* -------Review Section Responsive----- */
+            #review {
+                margin-top: -250px;
+            }
+
+            .review_item {
+                width: auto;
+            }
+
+            .review_item_md {
+                margin-top: 20px;
+            }
+
+            /* -------Review Section Responsive END----- */
+            /* ------Footer Section Responsive START---- */
+            #footer {
+                background: #13132C;
+                padding-top: 350px;
+            }
+
+            .footer_item h4 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            /* ------Footer Section Responsive END---- */
+        }
+
+        /* (lg) Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) and (max-width: 1199.999px) {
+
+            /* Price Part Start */
+            #pricing {
+                padding: 30px 0;
+            }
+
+            #pricing .priceDetails {
+                max-width: unset;
+            }
+
+            /* Price Part End */
+
+        }
+
+/* X-Large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) and (max-width: 1399.999px) {
+
+            /* Price Part Start */
+            #pricing {
+                padding: 40px 0 40px;
+            }
+
+            #pricing .priceDetails {
+                max-width: unset;
+            }
+
+            #pricing .cord ul {
+                margin: 0 14px;
+            }
+
+            /* Price Part End */
+            /* -------Review Section Responsive Start----- */
+
+            .review_item {
+                width: auto;
+            }
+
+            .review_item img {
+                object-fit: contain;
+            }
+        }
+
+        /* podcast start */
+        /* podcast end */
+        /* different start */
+        /* different end */
+    }
+
+    @media (max-width:575.99px) {
+
+        #popular {
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+
+
+        .popular-header h2 {
+            font-size: 32px;
+            line-height: 40px;
+            text-transform: capitalize;
+
+        }
+
+        .popular-header p {
+            padding: 0 0;
+        }
+
+
+        .nav-taps-button {
+            margin-bottom: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .left button {
+            width: 141px;
+            padding: 15px 20px;
+
+        }
+
+        .right button {
+            width: 118px;
+            padding: 15px 20px;
+
+        }
+
+        .nav-taps-button .left button {
+            margin-top: 16px;
+        }
+
+        .nav-taps-button .right button {
+            margin-top: 16px;
+        }
+
+        .nav-taps-button {
+            margin-bottom: 0px;
+        }
 
 
 
-
-
-
-
-
-}
-
-
-
-
-
-
+    }
 
 
 
