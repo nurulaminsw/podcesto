@@ -19,7 +19,31 @@ li {
 }
 span {
   display: inline-block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+span {
+    display: inline-block;
+}
+
 /* Common CSS End */
 
 /* Pricing End */
@@ -183,3 +207,172 @@ span {
 
 
 
+/*-------------REVIEW CSS START---------------*/
+#review {
+    margin-top: -120px;
+    position: relative;
+    transform: translateY(38%);
+}
+
+.review_heading {
+    position: relative;
+    margin-bottom: 56px;
+}
+
+.review_head h3{
+    width: 403px;
+    font-size: 48px;
+    color: #13132C;
+}
+
+.review_head a{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 16px;
+    color: #7678ED;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    transition: .4s;
+}
+.review_head a:hover{
+    background-color: #7678ED;
+    color: #FFF;
+}
+
+.review_item {
+    background: #FFFF;
+    width: 384px;
+    padding: 24px;
+    border: 1px solid #DDDDDD;
+}
+
+.review_item p {
+    margin-top: 24px;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 28px;
+    color: #62636C;
+}
+
+.reviewer {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.reviewer_name h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #13132C;
+}
+
+.reviewer_name h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898998;
+}
+
+.pagination ul {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .left,
+.pagination .right {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 55px;
+    border-radius: 50%;
+    border: 1px solid #FFFF;
+    color: #FFFF;
+    opacity: 0.48;
+    transition: 0.4s;
+}
+.pagination .left:hover{
+    background: #FFF;
+    color: #7678ED;
+    opacity: 1;
+}
+
+.pagination .dot {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #FFFF;
+    opacity: 0.48;
+    font-size: 8px;
+}
+
+.pagination .selected {
+    margin-left: 32px;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+}
+
+.pagination .right {
+    background: #FFFF;
+    margin-left: 32px;
+    opacity: 1;
+    color: #7678ED;
+}
+
+/*-------------REVIEW CSS END---------------*/
+/*-------------FOOTER CSS START---------------*/
+#footer {
+    background: #13132C;
+    padding-top: 294px;
+}
+
+.footer_item_wrap{
+    padding-bottom: 48px;
+    border-bottom: 1px solid #FFF;
+}
+.footer_left p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFF;
+    opacity: .72;
+}
+.footer_item h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+.footer_item ul{
+    padding-left: 0;
+}
+.footer_item ul li{
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #FFF;
+    opacity: .72;
+}
+.footer_item .contact{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+.copyright p{
+    padding: 24px 0 32px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFF;
+    text-align: center;
+}
+/*-------------FOOTER CSS END---------------*/
