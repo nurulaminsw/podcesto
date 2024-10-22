@@ -204,7 +204,54 @@ span {
     border: 1px solid #7678ED;
 }
 
-
+*-------------BLOG CSS START---------------*/
+#blog{
+    margin-top: 96px;
+    background: #FAFAFA;
+}
+.blog_head{
+    width: 617px;
+}
+.blog_head h3{
+    font-size: 48px;
+    line-height: 70px;
+    color: #13132C;
+    text-transform: capitalize;
+}
+.blog_head p{
+    width: 533px;
+    padding-top: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #898998;
+}
+.blog_wrap{
+    padding: 48px 0;
+}
+.blog_item{
+    width: 384px;
+    background: #FFF;
+    padding: 24px;
+}
+.blog_item h4{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #13132C;
+}
+.blog_item p{
+    margin-top: 16px;
+    font-size: 14px;
+    color: #898998;
+}
+.blog_item a{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F18701;
+}
+/*-------------BLOG CSS END---------------*/
 
 
 /*-------------REVIEW CSS START---------------*/
